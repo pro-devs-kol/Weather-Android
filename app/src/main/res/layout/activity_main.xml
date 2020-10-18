@@ -126,13 +126,11 @@
                     android:gravity="center"
                     android:orientation="vertical"
                     android:padding="8dp">
-                    ImageView android:layout_width="25dp" android:layout_height="25dp"
-                    android:src="@drawable/sunrise" android:tint="#FFFFFF"
-
                     <ImageView
                         android:id="@+id/imageView"
                         android:layout_width="32dp"
                         android:layout_height="32dp"
+                        app:tint="@color/colorPrimary"
                         app:srcCompat="@drawable/sunrise" />
 
                     <Space
@@ -165,13 +163,12 @@
                     android:gravity="center"
                     android:orientation="vertical"
                     android:padding="8dp">
-                    ImageView android:layout_width="25dp" android:layout_height="25dp"
-                    android:src="@drawable/sunset" android:tint="#FFFFFF"
 
                     <ImageView
                         android:id="@+id/imageView2"
                         android:layout_width="32dp"
                         android:layout_height="32dp"
+                        app:tint="@color/colorPrimary"
                         app:srcCompat="@drawable/sunset" />
 
                     <Space
@@ -204,13 +201,12 @@
                     android:gravity="center"
                     android:orientation="vertical"
                     android:padding="8dp">
-                    ImageView android:layout_width="25dp" android:layout_height="25dp"
-                    android:src="@drawable/wind" android:tint="#FFFFFF"
 
                     <ImageView
                         android:id="@+id/imageView3"
                         android:layout_width="32dp"
                         android:layout_height="32dp"
+                        app:tint="@color/colorPrimary"
                         app:srcCompat="@drawable/wind" />
 
                     <Space
@@ -250,13 +246,12 @@
                     android:gravity="center"
                     android:orientation="vertical"
                     android:padding="8dp">
-                    ImageView android:layout_width="25dp" android:layout_height="25dp"
-                    android:src="@drawable/pressure" android:tint="#FFFFFF"
 
                     <ImageView
                         android:id="@+id/imageView4"
                         android:layout_width="32dp"
                         android:layout_height="32dp"
+                        app:tint="@color/colorPrimary"
                         app:srcCompat="@drawable/pressure" />
 
                     <Space
@@ -291,14 +286,12 @@
                     android:gravity="center"
                     android:orientation="vertical"
                     android:padding="8dp">
-                    ImageView android:layout_width="25dp" android:layout_height="25dp"
-                    android:src="@drawable/humidity" android:tint="#FFFFFF"
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="Team Nullpoint"
+                        android:text="Pro-devs-kol"
                         android:textSize="12dp" />
 
                 </LinearLayout>
@@ -314,13 +307,12 @@
                     android:gravity="center"
                     android:orientation="vertical"
                     android:padding="8dp">
-                    ImageView android:layout_width="25dp" android:layout_height="25dp"
-                    android:src="@drawable/humidity" android:tint="#FFFFFF"
 
                     <ImageView
                         android:id="@+id/imageView5"
                         android:layout_width="32dp"
                         android:layout_height="32dp"
+                        app:tint="@color/colorPrimary"
                         app:srcCompat="@drawable/humidity" />
 
                     <Space
