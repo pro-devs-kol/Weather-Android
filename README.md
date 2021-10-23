@@ -1,2 +1,2 @@
 # Weather-Android
- weather-app
+This is a current weather data fetching app.
