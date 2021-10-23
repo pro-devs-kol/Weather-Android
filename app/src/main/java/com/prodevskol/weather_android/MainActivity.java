@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     private Button mButton;
 
     String CITY = "kolkata,in";
-    String API = "8118ed6ee68db2debfaaa5a44c832918";
+    String API = "keep_your_api_id_here";
 
     TextView addressTxt, updated_atTxt, statusTxt, tempTxt, temp_minTxt, temp_maxTxt, sunriseTxt,
             sunsetTxt, windTxt, pressureTxt, humidityTxt;
@@ -70,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         protected String doInBackground(String... args) {
+            //You can use api provider of your choice
             String response = HttpRequest.excuteGet("https://api.openweathermap.org/data/2.5/weather?q=" + CITY + "&units=metric&appid=" + API);
             return response;
         }
